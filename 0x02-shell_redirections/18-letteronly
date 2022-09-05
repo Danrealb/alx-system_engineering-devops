@@ -1,2 +1,2 @@
 #!/bin/bash
-grep ^'[a-z]' /etc/ssh/sshed_config
+sudo cat/etc/ssh/sshed_config | grep "^[A-Z][a-z]"
